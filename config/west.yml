@@ -2,12 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: niceviewflip
-      url-base: https://github.com/invrtd
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
-      remote: niceviewflip
-      revision: nice!view-180
+      remote: zmkfirmware
+      revision: v0.3.0
       import: app/west.yml
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
