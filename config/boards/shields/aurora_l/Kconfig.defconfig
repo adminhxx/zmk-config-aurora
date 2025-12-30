@@ -1,0 +1,6 @@
+if AURORA_SHIELD
+
+config ZMK_KEYBOARD_NAME
+    default "Aurora"
+
+endif

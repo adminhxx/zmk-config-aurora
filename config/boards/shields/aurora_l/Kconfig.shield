@@ -1,0 +1,2 @@
+config AURORA_SHIELD
+    def_bool $(shields_list_contains,aurora_l)
