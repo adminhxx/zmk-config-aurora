@@ -1,0 +1,9 @@
+---
+file_format: "1"
+id: aurora_l
+name: aurora_l
+type: shield
+url: https://github.com/adminhxx/aurora
+requires: [pro_micro]
+exposes: []
+features: [keys]
